@@ -1,0 +1,62 @@
+/* Shorthand.css */
+
+:root {
+    --cor0: #8d8d8d;
+    --cor1: #01050A;
+    --cor2: #0D1117;
+    --cor3: #161B22;
+    --cor4: #21262D;
+    --cor5: #30363D;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+}
+
+main {
+    background-color: white;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
+
+main header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    border-radius: 10px;
+    min-height: 80px;
+    text-align: left;
+    padding: 10px;
+}
+
+main header h1 {
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 30pt;
+    color: white;
+}
+
+main p {
+    margin: 14px 0px;
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+main a {
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+main a:hover {
+    background-color: var(--cor1);
+    text-decoration: underline;
+    color: var(--cor0);
+}
